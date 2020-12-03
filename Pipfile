@@ -9,6 +9,7 @@ flake8 = "*"
 pyformat = "*"
 
 [packages]
+library-boilerplate = {git = "https://github.com/moaible/python-pip-library-boilerplate.git"}
 
 [scripts]
 fmt = "pyformat -air ."
